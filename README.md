@@ -3,6 +3,7 @@ EX: 7.1 RECURSION
 
 ### Aim: 
 To Write a Python Program to find the sum of all digits in a number using recursion
+
 ### Algorithm:
 STEP 1: Start.
 
@@ -81,7 +82,8 @@ print(fun(n))
 
 ###Result: 
 Thus the Python Program  to display first n whole numbers in reverse order using nested recursion was executed successfully.
- 
+
+
 
 
 EX: 7.3 TAYLOR SERIES
@@ -101,6 +103,7 @@ STEP 4: Create a base case and recursive case to calculate the result.
 STEP 5: Print the result.
 
 STEP 6: Stop.
+
 ### Program:
 ```
 Reg no-212223070007
@@ -121,11 +124,14 @@ print(series(x,n))
  
 ### Result: 
 Thus the python program to evaluate the series using recursion by collecting the x and n values from the user was executed successfully .
+
+
  
 
 EX: 7.4 Solve by recursion relation
 
-### Aim: To Write a Python Program to find whether a string is a palindrome or not using recursion
+### Aim: 
+To Write a Python Program to find whether a string is a palindrome or not using recursion
 
 ### Algorithm:
 STEP 1: Start.
@@ -144,6 +150,9 @@ STEP 7: Stop.
 
 ### Program:
 ```
+Reg no-212223070007
+Name-Gopinath G
+
 def is_palindrome(word):
       if len(word)<1:
             return True
@@ -161,6 +170,7 @@ else:
 ### Output:
 ![image](https://github.com/user-attachments/assets/d30ef836-1901-448a-a146-dc905fdc3198)
 
-### Result: Thus, the given program is implemented and executed successfully .
+### Result: 
+Thus the Python Program to find whether a string is a palindrome or not using recursion was executed successfully .
  
 
