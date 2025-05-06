@@ -1,6 +1,8 @@
 # 19CS301-Module7
 EX: 7.1 RECURSION
-### Aim: To Write a Python Program to find the sum of all digits in a number using recursion
+
+### Aim: 
+To Write a Python Program to find the sum of all digits in a number using recursion
 ### Algorithm:
 STEP 1: Start.
 
@@ -8,60 +10,85 @@ STEP 2: Define a function.
 
 STEP 3: Create a base case for termination of the function. STEP 4: Create a recursive case to calculate the result.
 
-STEP 5: Print the result. STEP 6: Stop.
+STEP 5: Print the result. 
+
+STEP 6: Stop.
 
 ### Program:
 ```
-def sum_digit(n):
-       if n<=0:
-            return 0
-       else:
-            return n%10+sum_digit(n//10)
-n = int(input())
-sum = sum_digit(n)
-print(sum)
+Reg no-212223070007
+Name-Gopinath G
+
+def sum_digits(num):
+    if num < 0 or int(num) != num:
+        return 0
+    elif num == 0:
+        return 0
+    else:
+        return (num % 10) + sum_digits(num//10)
+num= int(input())
+print(sum_digits(num))
 ```
 ### Output:
-![image](https://github.com/user-attachments/assets/50acc657-266e-46e6-ab17-10358494e26c)
+![image](https://github.com/user-attachments/assets/769a05da-cd87-4789-9d05-f0585ae6a580)
 
-### Result: Thus, the given program is implemented and executed successfully .
+
+### Result: 
+Thus the Python Program to find the sum of all digits in a number using recursion was executed successfully.
  
 
 EX: 7.2 TYPES OF RECURSIONS
-### Aim: To Write a Python Program to find the sum of all digits in a number using recursion
+
+### Aim:
+To Write a Python Program  to display first n whole numbers in reverse order using nested recursion
+
 ### Algorithm:
-STEP 1: Start.
 
-STEP 2: Define a function.
+1. **Start**
+2. Read input value `n`
+3. Call function `fun(n)`
+4. Inside `fun(n)`:
 
-STEP 3: Create a recursive case in the first line of function for head recursion.
+   * If `n == 0`:
 
-STEP 4: Print the result.
+     * Return `0`
+   * Else:
 
-STEP 5: Stop.
+     * Print `n` (with a space)
+     * Call `fun(fun(n - 1))`
+5. The function keeps calling itself recursively until `n` becomes `0`
+6. Finally, print the returned value (which is always `0`)
+7. **End**
+
 ### Program:
 ```
+Reg no-212223070007
+Name-Gopinath G
+
 def fun(n):
-     if (n >0):
-          fun(n - 2)
-      print(n-1, end=" ")
-x = int(input())
-if(x%2==0):
-     fun(x)
-else:
-     fun(x+1)
+    if n==0:
+        return 0
+    else:
+        print(n, end=" ")
+        return(fun(fun(n-1)))
+        
+n=int(input())
+print(fun(n))
 
 ```
 ### Output:
-![image](https://github.com/user-attachments/assets/c4d6416f-d333-49c1-9dd5-0f774cdabb03)
+![image](https://github.com/user-attachments/assets/37b97260-cc0e-4658-a891-256630f17977)
 
-###Result: Thus, the given program is implemented and executed successfully.
+###Result: 
+Thus the Python Program  to display first n whole numbers in reverse order using nested recursion was executed successfully.
  
 
 
 EX: 7.3 TAYLOR SERIES
 
-###Aim: To python program to evaluate the series using recursion by collecting the x and n values from the user.
+###Aim: 
+To python program to evaluate the series using recursion by collecting the x and n values from the user.
+
 ### ALGORITHM:
 STEP 1: Start.
 
