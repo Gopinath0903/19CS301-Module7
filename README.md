@@ -103,6 +103,9 @@ STEP 5: Print the result.
 STEP 6: Stop.
 ### Program:
 ```
+Reg no-212223070007
+Name-Gopinath G
+
 def series(x,n):
          if n==0:
             return 1
@@ -116,7 +119,8 @@ print(series(x,n))
 ![image](https://github.com/user-attachments/assets/1d00b1a4-cecb-466f-8593-805f00d27461)
 
  
-### Result: Thus, the given program is implemented and executed successfully .
+### Result: 
+Thus the python program to evaluate the series using recursion by collecting the x and n values from the user was executed successfully .
  
 
 EX: 7.4 Solve by recursion relation
